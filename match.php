@@ -21,8 +21,6 @@ $outputAge = match (true) {
 
 ?>
 
-
-
 <h2><?= $outputAge ?></h2>
 
 <?php include './templates/footer.php'; ?>
