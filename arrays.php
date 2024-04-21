@@ -7,6 +7,14 @@ $bestLanguages[3] = "Java";
 // adds to array at the end
 $bestLanguages[] = "TypeScript";
 
+//asociative arrays
+$person = [
+    "name" => "Carlos",
+    "age" => 33,
+    "isDev" => true,
+    "languages" => ["JavaScript", "PHP", "TypeScript"]
+]
+
 ?>
 
 <h2>The best language is <?= $bestLanguages[1] ?></h2>

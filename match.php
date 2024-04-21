@@ -16,7 +16,7 @@ $outputAge = match (true) {
     $age = 18 => "You're of legal age, $name",
     $age < 30 => "You're are in the best part, $name",
     $age > 40 => "You're a older, $name",
-    default => "You're in the third age, $name",
+    default => "You're in the third age, $name"
 }
 
 ?>
