@@ -7,7 +7,7 @@ var_dump = $name;
 var_dump = $isDev;
 var_dump = $age;
 
-$output = "Hola $name, con una edad de $age años. 😁"
+$output = "Hola $name, con una edad de $age años. 😁" 
 ?>
 
 <h1>
@@ -18,7 +18,6 @@ $output = "Hola $name, con una edad de $age años. 😁"
         . $age
     ?>
 </h1>
-
 <h2> <?= $output ?> </h2> 
 
 <style>
