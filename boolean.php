@@ -29,6 +29,5 @@ $outputAge = $isOld
 
 <h2><?= $outputAge ?></h2>
 
+<?php include './templates/footer.php'; ?>
 
-
-<?php include 'footer.php'; ?>
